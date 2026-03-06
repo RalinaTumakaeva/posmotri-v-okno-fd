@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -16,7 +17,6 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
-  display: flex;
 }
 
 h1,
@@ -53,7 +53,7 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   gap: 30px;
   width: 100%;
@@ -61,8 +61,8 @@ ol {
 }
 
 .result {
-  width: 711px;
   align-self: flex-end;
+  width: 711px;
 }
 
 .visually-hidden {
@@ -82,7 +82,7 @@ ol {
 .title {
   margin-bottom: 15px;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -115,9 +115,9 @@ ol {
   background-color: #545050;
 }
 
- .content__card-link_current {
+.content__card-link_current {
   background-color: #545050;
- }
+}
 
 /* Заголовок карточки */
 .content__video-card-title {
@@ -125,7 +125,7 @@ ol {
   margin-top: 2px;
   margin-bottom: 7px;
   overflow: hidden;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -137,15 +137,15 @@ ol {
 /* Описание карточки */
 .content__video-card-description {
   display: -webkit-box;
+  max-width: 180px;
   overflow: hidden;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   line-clamp: 3;
-  max-width: 180px;
 }
 
 /* Контейнер с элементами поиска */
@@ -162,8 +162,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 300px;
   width: 399px;
+  height: 300px;
   margin-top: 20px;
   overflow: auto;
 }
@@ -204,7 +204,6 @@ ol {
   min-width: 194px;
   height: 103px;
   object-fit: cover;
-  object-position: top right;
   object-position: center;
 }
 
@@ -352,7 +351,7 @@ ol {
 }
 
 .more-button {
-  inline-size: calc(100% - 4px);
-  margin: 0 2px 2px;
   width: 100%;
+  margin: 0 2px 2px;
+  inline-size: calc(100% - 4px);
 }
