@@ -320,7 +320,7 @@ ol {
   line-height: 100%;
   text-align: center;
   background-color: transparent;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .button:active {
